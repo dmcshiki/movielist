@@ -19,7 +19,7 @@ class ErrorView extends StatelessWidget {
                 children: [
                   TextSpan(
                     text: MovieListStrings.errorScreenTitle,
-                    style: const TextStyle(fontSize: 40),
+                    style: const TextStyle(fontSize: 50, color: Colors.white),
                   ),
                 ],
               ),
@@ -30,7 +30,7 @@ class ErrorView extends StatelessWidget {
               children: [
                 TextSpan(
                   text: MovieListStrings.errorScreenDescription,
-                  style: const TextStyle(fontSize: 15),
+                  style: const TextStyle(fontSize: 15, color: Colors.white),
                 ),
               ],
             ),
@@ -43,8 +43,8 @@ class ErrorView extends StatelessWidget {
               child: Text(
                 MovieListStrings.errorScreenButtonTitle,
                 style: const TextStyle(
-                  color: Colors.purple,
-                  fontSize: 16,
+                  color: Colors.grey,
+                  fontSize: 18,
                 ),
               ),
             ),
